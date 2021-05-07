@@ -5,7 +5,7 @@
     android:id="@+id/motionLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".scenes.Scene7Activity">
+    tools:context=".scenes.Scene8Activity">
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardTwo"
@@ -49,6 +49,7 @@
         android:id="@+id/detailButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
         android:elevation="1dp"
         android:gravity="center_horizontal"
         android:text="More detail"

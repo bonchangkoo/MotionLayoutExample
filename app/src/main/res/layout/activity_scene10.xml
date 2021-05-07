@@ -5,7 +5,7 @@
     android:id="@+id/motionLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".scenes.Scene7Activity">
+    tools:context=".scenes.Scene10Activity">
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardTwo"
@@ -22,7 +22,8 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/containerCardTwo"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"></androidx.constraintlayout.widget.ConstraintLayout>
+            android:layout_height="match_parent">
+        </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.material.card.MaterialCardView>
 
 
@@ -79,7 +80,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="36dp"
         android:elevation="1dp"
-        android:text="구 본창, 27"
+        android:text="Rodrigo Dominguez, 27"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -132,6 +133,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/superLikeFloating" />
-
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
